@@ -95,6 +95,7 @@ android {
 
     namespace "com.firstproject"
     defaultConfig {
+        multiDexEnabled true
         applicationId "com.firstproject"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
